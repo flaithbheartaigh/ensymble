@@ -5,12 +5,12 @@
 Back to [Welcome main page].
 
 
-==Download==
+=Download=
 
 Ensymble pre-[http://effbot.org/zone/squeeze.htm squeezed] versions are ready to use. Just copy the file to a suitable place (on command search path) and start using it!
 
 
-===Older versions===
+==Older versions==
 
 v0.26 2008-01-27
 
