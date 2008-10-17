@@ -5,12 +5,12 @@
 Back to [Welcome main page].
 
 
-=Download=
+==Download==
 
 Ensymble pre-[http://effbot.org/zone/squeeze.htm squeezed] versions are ready to use. Just copy the file to a suitable place (on command search path) and start using it!
 
 
-==Older versions==
+===Older versions===
 
 v0.26 2008-01-27
 
@@ -25,6 +25,7 @@ Changes:
 
   * Incorporated a --runinstall option for the py2sis command, developed by Jari Kirma.
   * Commands mergesis and signsis no longer choke on extra bytes in input SIS files, the bytes are simply discarded. PyS60 v1.4.2 SIS file from Nokia contains 1272 extra bytes. Purpose of these bytes is not known at this time and removing them seems to have no effect.
+
 
 v0.25 2007-12-15
 
@@ -44,6 +45,7 @@ Changes:
   * Made it possible to use numeric capability bitmasks.
   * Rewrote installation instructions to better take Windows users into account.
 
+
 v0.24 2007-10-18
 
   * Source: ensymble-0.24.tar.gz (92 kB)
@@ -57,7 +59,8 @@ Changes:
 
   * Added --autostart option to the py2sis command, like in the official py2sis.
   * Added --vendor option to the py2sis command for setting the vendor name shown during SIS installation.
-  * Added infoe32 command for inspecting Symbian OS e32image files (EXEs, DLLs), contributed by Martin Storsjö.
+  * Added infoe32 command for inspecting Symbian OS e32image files (EXEs, DLLs), contributed by [http://www.martin.st/software/ Martin Storsjö].
+
 
 v0.23 2007-07-16
 
@@ -73,6 +76,7 @@ Changes:
   * Python for S60 changed its UID due to Nokia finally signing it, so Ensymble uses the new UID from now on as an installation time dependency.
   * Clarified README in using embedded version and UID strings with the py2sis command.
 
+
 v0.22 2007-02-08
 
   * Source: ensymble-0.22.tar.gz (84 kB)
@@ -87,6 +91,7 @@ Changes:
   * Added simplesis command for creating a SIS package out of a directory structure.
   * Added maximum file size sanity check for py2sis command.
 
+
 v0.21 2007-02-01
 
   * Source: ensymble-0.21.tar.gz (84 kB)
@@ -99,6 +104,7 @@ v0.21 2007-02-01
 Changes:
 
   * Added mergesis command for combining several SIS files into one.
+
 
 v0.20 2007-01-01
 
@@ -114,9 +120,10 @@ Changes:
   * Revamped documentation. Now every command and option is explained.
   * Added signsis command for (re-)signing SIS files.
   * Added altere32 command for altering pre-compiled Symbian EXEs and DLLs.
-  * Implemented text file option for py2sis command. This is a requirement of Symbian's Freeware Route to Market.
+  * Implemented text file option for py2sis command. This is a requirement of Symbian's [https://www.symbiansigned.com/app/page/overview/freewareFaq Freeware Route to Market].
   * Made py2sis language option more robust against mistyped language codes.
   * Miscellaneous clean-ups
+
 
 v0.15 2006-11-18
 
@@ -131,6 +138,7 @@ Changes:
 
   * Rewrote certificate to binary conversion. Fixes certificate problems on Windows. Some generated SIS files were not installable.
   * Removed line feed after pass phrase for OpenSSL. It caused "wrong pass phrase" errors on Windows.
+
 
 v0.14 2006-11-12
 
@@ -147,6 +155,7 @@ Changes:
   * Test UIDs use lower case appname now, due to Symbian OS being case insensitive. What this means is that programs "test.py" and "TeSt.pY" now get the same (automatically generated) test UID.
   * Added support for signature chains. Signature chains are used by Symbian Signed (DevCerts and other certificates).
 
+
 Fourth public preview release: v0.13 2006-10-06
 
   * Source: ensymble-0.13.tar.gz (71 kB)
@@ -159,6 +168,7 @@ Fourth public preview release: v0.13 2006-10-06
 Changes:
 
   * OpenSSL invocation uses absolute paths now. This corrects problems with Windows XP Pro.
+
 
 Third public preview release: v0.12 2006-10-05
 
@@ -177,6 +187,7 @@ Changes:
   * Added debug messages for troubleshooting OpenSSL-related problems.
   * Miscellaneous clean-ups
 
+
 Second public preview release: v0.11 2006-09-26
 
   * Source: ensymble-0.11.tar.gz (71 kB)
@@ -191,8 +202,10 @@ Changes:
   * Made the default certificate a bit more anonymous.
   * Added Windows (NT/2000/XP) support.
 
+
 First public preview release: v0.10 2006-09-24
 
   * Source: ensymble-0.10.tar.gz (116 kB)
 
 ----
+Copyright © 2006, 2007, 2008 Jussi Ylänen
