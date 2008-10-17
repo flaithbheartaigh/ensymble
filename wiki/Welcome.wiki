@@ -1,4 +1,5 @@
 #summary Start page for Ensymble
+#labels Featured
 
 =Welcome=
 
