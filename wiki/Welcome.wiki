@@ -20,7 +20,7 @@ A long term goal of Ensymble is to provide a cross-platform, open-source way to 
     * OpenSSL is pre-installed on most Linux systems and on OS X.
     * For Windows, the [http://www.stunnel.org/download/binaries.html Stunnel OpenSSL binaries] are recommended.
 
-Ensymble targets Symbian OS v9.1 and later. For Nokia phones, this means S60 3rd Edition. 1st and 2nd Edition phones are not directly supported by Ensymble. A list of editions for Nokia phones is available from [http://www.forum.nokia.com/devices/matrix_s60_1.html Forum Nokia]. (See [http://www.nbl.fi/jussi.ylanen/py2sisng.html py2sisng] for a cross-platform version of py2sis, compatible with S60 1st and 2nd Edition.)
+Ensymble targets Symbian OS v9.1 and later. For Nokia phones, this means S60 3rd Edition. 1st and 2nd Edition phones are not directly supported by Ensymble. A list of editions for Nokia phones is available from [http://www.forum.nokia.com/devices/matrix_s60_1.html Forum Nokia]. (See [http://py2sisng.googlecode.com/ py2sisng] for a cross-platform version of py2sis, compatible with S60 1st and 2nd Edition.)
 
 The py2sis command of Ensymble produces installation packages (SIS) for [http://sourceforge.net/projects/pys60 Python for S60] version 1.4.0 and later. Version 1.4.0 of Python for S60 is the first officially signed release from Nokia. Although packages generated with Ensymble also work with !PyS60 from v1.3.8 upto v1.3.23, a harmless warning is generated during installation for a missing Python for S60 component.
 
@@ -57,6 +57,8 @@ Older versions of Ensymble can be found in [Archives the archives].
 
 =Project history=
 
+  * *2008-10-17*
+  Moved project to [http://code.google.com Google Code].
   * *2008-06-30*
   Released Ensymble v0.27 2008-06-30.
   * *2008-01-27*
@@ -101,7 +103,7 @@ Older versions of Ensymble can be found in [Archives the archives].
   * [http://discussion.forum.nokia.com/forum/forumdisplay.php?f=102 Python for S60 discussion board], where questions about Ensymble are answered
   * A lot of useful [http://www.martin.st/software/ Symbian OS information and software] by Martin Storsjö, including a full [http://www.martin.st/symbian/ Symbian C++ toolchain for Linux and Mac OS X]!
   * [http://developer.symbian.com/main/downloads/papers/SymbianOSv91/softwareinstallsis.pdf Symbian OS v9.X SIS File Format Specification] from Symbian
-  * [http://www.nbl.fi/jussi.ylanen/py2sisng.html Python-to-SIS, the next generation] for S60 1st and 2nd Edition phones
+  * [http://py2sisng.googlecode.com/ Python-to-SIS, the next generation] for S60 1st and 2nd Edition phones
 
 ----
 Copyright © 2006, 2007, 2008 Jussi Ylänen
