@@ -34,20 +34,23 @@ Ensymble pre-[http://effbot.org/zone/squeeze.htm squeezed] versions are ready to
 
 ==Latest==
 
-v0.27 2008-06-30
+v0.28 2009-01-30
 
-  * Source: [http://ensymble.googlecode.com/files/ensymble-0.27.tar.gz ensymble-0.27.tar.gz] (96 kB)
-  * Pre-squeezed version for Python v2.2: [http://ensymble.googlecode.com/files/ensymble_python2.2-0.27.py ensymble_python2.2-0.27.py] (94 kB)
-  * Pre-squeezed version for Python v2.3: [http://ensymble.googlecode.com/files/ensymble_python2.3-0.27.py ensymble_python2.3-0.27.py] (83 kB)
-  * Pre-squeezed version for Python v2.4: [http://ensymble.googlecode.com/files/ensymble_python2.4-0.27.py ensymble_python2.4-0.27.py] (80 kB)
-  * Pre-squeezed version for Python v2.5: [http://ensymble.googlecode.com/files/ensymble_python2.5-0.27.py ensymble_python2.5-0.27.py] (78 kB)
-  * Documentation: [http://ensymble.googlecode.com/files/README-0.27.txt README-0.27.txt] (42 kB)
+  * Source: [http://ensymble.googlecode.com/files/ensymble-0.28.tar.gz ensymble-0.28.tar.gz] (99 kB)
+  * Pre-squeezed version for Python v2.2 no longer available.
+  * Pre-squeezed version for Python v2.3: [http://ensymble.googlecode.com/files/ensymble_python2.3-0.28.py ensymble_python2.3-0.28.py] (85 kB)
+  * Pre-squeezed version for Python v2.4: [http://ensymble.googlecode.com/files/ensymble_python2.4-0.28.py ensymble_python2.4-0.28.py] (82 kB)
+  * Pre-squeezed version for Python v2.5: [http://ensymble.googlecode.com/files/ensymble_python2.5-0.28.py ensymble_python2.5-0.28.py] (80 kB)
+  * Documentation: [http://ensymble.googlecode.com/files/README-0.28.txt README-0.28.txt] (44 kB)
 
 Changes:
 
-  * Implemented --heapsize option for the py2sis and altere32 commands. Sometimes the default heap maximum limit of one megabyte is not enough, for example when handling large pictures from the built-in camera.
-  * Implemented an --extrasdir option for the py2sis command. It allows flexible placement of extra files, just like the simplesis command does.
-  * Added support for PKCS#8 format private keys. Some people have received these types of keys from Symbian.
+  * Added genuid command for generating test-range UIDs.
+  * Added --unsign option to the signsis command. This is useful when submitting the SIS file to an external signing authority, otherwise the Ensymble default certificate may remain in the resulting signed SIS file.
+  * Corrected a bug where DLLs (PYDs) would fail with the py2sis --extrasdir option. Previously trying to add PYDs or DLLs using --extrasdir would cause the installation to fail.
+  * Corrected an encoding bug in simplesis automatic UID generation.
+  * Corrected a possible Unicode exception in py2sis automatic UID generation.
+  * Added a warning about using a test-range UID that's different from Ensymble-generated one.
 
 
 ==Older versions==
@@ -57,6 +60,8 @@ Older versions of Ensymble can be found in [Archives the archives].
 
 =Project history=
 
+  * *2009-01-30*
+  Released Ensymble v0.28 2009-01-30.
   * *2008-10-17*
   Moved project to [http://code.google.com Google Code].
   * *2008-06-30*
@@ -106,4 +111,4 @@ Older versions of Ensymble can be found in [Archives the archives].
   * [http://py2sisng.googlecode.com/ Python-to-SIS, the next generation] for S60 1st and 2nd Edition phones
 
 ----
-Copyright © 2006, 2007, 2008 Jussi Ylänen
+Copyright © 2006, 2007, 2008, 2009 Jussi Ylänen
