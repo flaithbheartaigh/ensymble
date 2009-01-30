@@ -225,4 +225,4 @@ First public preview release: v0.10 2006-09-24
   * Source: ensymble-0.10.tar.gz (116 kB)
 
 ----
-Copyright © 2006, 2007, 2008 Jussi Ylänen
+Copyright © 2006, 2007, 2008, 2009 Jussi Ylänen
