@@ -13,6 +13,22 @@ Ensymble pre-[http://effbot.org/zone/squeeze.htm squeezed] versions are ready to
 
 ==Older versions==
 
+v0.27 2008-06-30
+
+  * Source: [http://ensymble.googlecode.com/files/ensymble-0.27.tar.gz ensymble-0.27.tar.gz] (96 kB)
+  * Pre-squeezed version for Python v2.2: [http://ensymble.googlecode.com/files/ensymble_python2.2-0.27.py ensymble_python2.2-0.27.py] (94 kB)
+  * Pre-squeezed version for Python v2.3: [http://ensymble.googlecode.com/files/ensymble_python2.3-0.27.py ensymble_python2.3-0.27.py] (83 kB)
+  * Pre-squeezed version for Python v2.4: [http://ensymble.googlecode.com/files/ensymble_python2.4-0.27.py ensymble_python2.4-0.27.py] (80 kB)
+  * Pre-squeezed version for Python v2.5: [http://ensymble.googlecode.com/files/ensymble_python2.5-0.27.py ensymble_python2.5-0.27.py] (78 kB)
+  * Documentation: [http://ensymble.googlecode.com/files/README-0.27.txt README-0.27.txt] (42 kB)
+
+Changes:
+
+  * Implemented --heapsize option for the py2sis and altere32 commands. Sometimes the default heap maximum limit of one megabyte is not enough, for example when handling large pictures from the built-in camera.
+  * Implemented an --extrasdir option for the py2sis command. It allows flexible placement of extra files, just like the simplesis command does.
+  * Added support for PKCS#8 format private keys. Some people have received these types of keys from Symbian.
+
+
 v0.26 2008-01-27
 
   * Source: ensymble-0.26.tar.gz (92 kB)
